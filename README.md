@@ -67,9 +67,9 @@ Edite o arquivo `.env` com suas configurações:
 
 ```env
 # Configurações do Bot Discord
-DISCORD_TOKEN=seu_token_aqui
-CLIENT_ID=seu_client_id_aqui
-GUILD_ID=seu_server_id_aqui
+DISCORD_TOKEN=MTQxNDgwMzgxMjUzNDg0OTU0Ng.GMydbA.mCP17dBGYW2Mx4fVpFovXtqkFU6awrDeiH84aE
+CLIENT_ID=1414803812534849546
+GUILD_ID=1348384072312815704
 
 # Configurações de Segurança
 BOT_SECRET_KEY=sua_chave_secreta_super_forte_aqui
