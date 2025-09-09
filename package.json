@@ -1,0 +1,30 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para sistema de tickets únicos e venda de produtos digitais",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node test-bot.js",
+    "validate": "node validate-env.js",
+    "deploy": "node deploy-commands.js",
+    "keys": "node validate-env.js --generate-keys"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.6",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "rate-limiter-flexible": "^3.0.8",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["discord", "bot", "tickets", "vendas", "segurança"],
+  "author": "Secure Bot System",
+  "license": "PRIVATE"
+}
